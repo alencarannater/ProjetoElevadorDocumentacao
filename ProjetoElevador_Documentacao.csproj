@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Views\Home\Proposta.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Home\Proposta.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Home\informacoesInicial.jpg" />
+    <None Remove="Views\Home\print1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\imgs\informacoesInicial.jpg" />
+  </ItemGroup>
+
+</Project>
